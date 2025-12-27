@@ -3,7 +3,7 @@ import { FadeIn } from "@/components/fade-in"
 
 export function AboutSection() {
   return (
-    <section id="nosotros" className="py-20 md:py-32 bg-card">
+    <section id="nosotros" className="py-20 md:py-32 bg-card scroll-mt-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <FadeIn direction="right" className="relative order-2 lg:order-1">
@@ -27,7 +27,7 @@ export function AboutSection() {
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 En Amazing Nails, nos dedicamos a ofrecer servicios de manicura y pedicura de la más alta calidad. Con
-                más de 10 años de experiencia, nuestro equipo de profesionales certificados se especializa en crear
+                más de 5 años de experiencia, nuestro equipo de profesionales certificados se especializa en crear
                 diseños únicos y cuidar la salud de tus uñas.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -41,7 +41,7 @@ export function AboutSection() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold">10+ Años</h3>
+                <h3 className="font-semibold">5+ Años</h3>
                 <p className="text-sm text-muted-foreground">De experiencia</p>
               </div>
 
@@ -49,7 +49,7 @@ export function AboutSection() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
                   <Users className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold">500+</h3>
+                <h3 className="font-semibold">100+</h3>
                 <p className="text-sm text-muted-foreground">Clientas felices</p>
               </div>
 

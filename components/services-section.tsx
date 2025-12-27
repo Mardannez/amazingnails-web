@@ -5,7 +5,7 @@ import { FadeIn } from "@/components/fade-in"
 const services = [
   {
     icon: Sparkles,
-    title: "Manicura Clásica",
+    title: "Manicura Rusa",
     description: "Cuidado completo de tus manos con limado, cutícula, masaje hidratante y esmaltado perfecto.",
     price: "Desde L. 350",
     image: "/classic-manicure-hands-with-elegant-nail-polish.jpg",
@@ -40,16 +40,16 @@ const services = [
   },
   {
     icon: Star,
-    title: "Tratamiento de Parafina",
-    description: "Hidratación profunda para manos y pies con baño de parafina terapéutica.",
+    title: "Reforzamiento Nivelacion + Semipermanente",
+    description: "Aplica una capa de material más duro (Rubber Base o Acrígel) para dar resistencia a la uña natural, corregir imperfecciones y esmaltar.",
     price: "Desde L. 450",
-    image: "/paraffin-wax-treatment-hands-spa.jpg",
+    image: "/reforzamiento-nivelacion-semipermanente.png",
   },
 ]
 
 export function ServicesSection() {
   return (
-    <section id="servicios" className="py-20 md:py-32">
+    <section id="servicios" className="py-20 md:py-32 scroll-mt-24" >
       <div className="container mx-auto px-4 md:px-6">
         <FadeIn className="mx-auto max-w-2xl text-center mb-16">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-4">Nuestros Servicios</p>
