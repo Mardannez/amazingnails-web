@@ -89,7 +89,7 @@ export function Footer() {
               <li>Choluteca, Choluteca</li>
               <li>9774-3957</li>
               {/* Updated email with new salon name */}
-              <li>info@amazingnails.com</li>
+              <li>info@amazingnailshn.com</li>
             </ul>
           </div>
         </div>

@@ -76,7 +76,7 @@ export function Header() {
             </Link>
           ))}
 
-          <Link href="#contacto">
+          <Link href="https://agendamientocitas.amazingnailshn.com" target="_blank">
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
               Reservar Cita
             </Button>

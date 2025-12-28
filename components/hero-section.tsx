@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button"
 import { Sparkles } from "lucide-react"
 import { FadeIn } from "@/components/fade-in"
-
+import Link from "next/link";
 export function HeroSection() {
  const goToServicios = () => {
     const el = document.getElementById("servicios");
@@ -32,9 +32,11 @@ export function HeroSection() {
                 </p>
               </div>
               <div className="flex flex-col gap-4 sm:flex-row">
-                <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                  Reservar Ahora
-                </Button>
+              <Link href="https://agendamientocitas.amazingnailshn.com" target="_blank">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+                Reservar Cita
+               </Button>
+              </Link>
                 <Button size="lg" variant="outline" onClick={goToServicios} >
                   Ver Servicios
                 </Button>
