@@ -26,7 +26,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <Link
-                href="#"
+                href="https://www.instagram.com/amazingnailshn?igsh=cG9mazRpNTk3bXV2" target="_blank"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Instagram className="h-5 w-5" />
@@ -37,12 +37,7 @@ export function Footer() {
               >
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link
-                href="#"
-                className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-              </Link>
+            
             </div>
           </div>
 
@@ -89,13 +84,13 @@ export function Footer() {
               <li>Choluteca, Choluteca</li>
               <li>9774-3957</li>
               {/* Updated email with new salon name */}
-              <li>info@amazingnailshn.com</li>
+              <li>amazingnailshn@gmail.com</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© 2025 Amazing Nails. Todos los derechos reservados.</p>
+          <p>© 2026 Amazing Nails. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

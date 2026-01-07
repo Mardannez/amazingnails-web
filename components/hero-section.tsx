@@ -32,14 +32,35 @@ export function HeroSection() {
                 </p>
               </div>
               <div className="flex flex-col gap-4 sm:flex-row">
-              <Link href="https://agendamientocitas.amazingnailshn.com" target="_blank">
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-                Reservar Cita
-               </Button>
-              </Link>
+               <Button
+                  asChild
+                  variant="outline"
+                  className="
+                    w-full
+                    h-10
+                    rounded-xl
+                    text-base
+                    justify-center
+                    bg-transparent
+                    border
+                    hover:bg-primary/10
+                    bg-primary text-primary-foreground hover:bg-primary/10
+                  "
+                >
+                  <Link
+                    href="https://agendamientocitas.amazingnailshn.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full sm:w-auto"
+                  >
+                    Reservar Cita
+                  </Link>
+                </Button>
+              
                 <Button size="lg" variant="outline" onClick={goToServicios} >
                   Ver Servicios
                 </Button>
+                
               </div>
             </div>
           </FadeIn>
