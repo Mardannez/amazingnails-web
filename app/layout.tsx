@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Amazing Nails - Salón de Uñas, Manicura y Pedicura",
   description:
     "Salón de uñas profesional especializado en manicura y pedicura. Transforma tus uñas con nuestros servicios de belleza.",
-  generator: "v0.app",
+  generator: "Jose Daniel Martinez Trochez",
 }
 
 export default function RootLayout({
