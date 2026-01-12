@@ -42,7 +42,7 @@ const services = [
     icon: Star,
     title: "Reforzamiento Nivelacion + Semipermanente",
     description: "Aplica una capa de material más duro (Rubber Base o Acrígel) para dar resistencia a la uña natural, corregir imperfecciones y esmaltar.",
-    price: "Desde L. 450",
+    price: "Desde L. 550",
     image: "/reforzamiento-nivelacion-semipermanente.png",
   },
 ]
@@ -57,7 +57,7 @@ export function ServicesSection() {
             className="font-serif text-4xl font-bold tracking-tight text-balance md:text-5xl mb-6"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Servicios diseñados para ti
+            Servicios de manicura y pedicura diseñados para ti
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Ofrecemos una amplia gama de servicios profesionales para el cuidado y embellecimiento de tus uñas.

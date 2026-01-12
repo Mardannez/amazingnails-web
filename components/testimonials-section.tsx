@@ -4,20 +4,25 @@ import { FadeIn } from "@/components/fade-in"
 
 const testimonials = [
   {
-    name: "María González",
-    role: "Clienta Regular",
+      name: "Kery Madrid",
+    role: "Clienta Frecuente",
     content:
-      "¡Increíble servicio! Las chicas son super profesionales y siempre salgo encantada con mis uñas. El ambiente es relajante y acogedor.",
-    rating: 5,
-    image: "/woman-smiling-professional-portrait.jpg",
-  },
-  {
-    name: "Ana Martínez",
-    role: "Clienta VIP",
-    content:
-      "Llevo años viniendo a Amazing Nails y nunca me han decepcionado. Los diseños son hermosos y duran muchísimo tiempo. Totalmente recomendado.",
+      "Excelente servicio y atención es el lugar que mas ha cuidado de mis uñas. Siempre me han durado muchísimo y nunca se me quiebran lo recomiendo 100% los productos son de alta calidad y las uñas crecen sanas y fuertes",
     rating: 5,
     image: "/woman-happy-professional-portrait.jpg",
+    
+  },
+  {
+  name: "Sophie Galeas",
+    role: "Clienta VIP",
+    content:
+     `¡Totalmente recomendada! Una experiencia transformadora.
+      Llevo aproximadamente 20 años usando uñas acrílicas, lo que terminó dañando mucho mis uñas naturales (sumado a mi mal hábito de arrancármelas). Mi mayor problema siempre fue que el acrílico se levantaba y se me trababa en el cabello, algo que detestaba.
+      Todo cambió cuando llegué a Amazing Nails. Bessy me explicó que su enfoque es recuperar la salud de la uña natural. Al principio dudé porque me encantaba el estilo del acrílico, pero tras mi tercera cita, puedo decir que estoy encantada.
+      Lo que ven en la foto son mis uñas naturales. Ya no necesito extensiones ni materiales corrosivos que las debiliten. Además, Bessy es una profesional súper sincera; te da la confianza de decirle si algo no te gusta para corregirlo al momento.
+      Si buscan salud y belleza real para sus manos, no duden en venir. ¡Un millón por ciento recomendada!`,
+    rating: 5,
+    image: "/woman-smiling-professional-portrait.jpg",
   },
   {
     name: "Lizeth Bonilla",

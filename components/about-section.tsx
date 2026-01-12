@@ -7,9 +7,9 @@ export function AboutSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <FadeIn direction="right" className="relative order-2 lg:order-1">
-            <div className="aspect-[4/5] overflow-hidden rounded-3xl bg-secondary">
+            <div className="aspect-[5/5] overflow-hidden rounded-3xl bg-secondary">
               <img
-                src="/professional-nail-technician-working-in-elegant-sa.jpg"
+                src="/Clienta2.jpeg"
                 alt="Nuestro salón"
                 className="h-full w-full object-cover"
               />
@@ -49,7 +49,7 @@ export function AboutSection() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
                   <Users className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold">100+</h3>
+                <h3 className="font-semibold">50+</h3>
                 <p className="text-sm text-muted-foreground">Clientas felices</p>
               </div>
 

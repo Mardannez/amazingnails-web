@@ -24,7 +24,7 @@ export function HeroSection() {
                   className="font-serif text-5xl font-bold tracking-tight text-balance md:text-6xl lg:text-7xl"
                   style={{ fontFamily: "var(--font-playfair)" }}
                 >
-                  Transforma tus uñas en obras de arte
+                  Manicura Profesional, transforma tus uñas en obras de arte
                 </h1>
                 <p className="text-lg text-muted-foreground text-pretty md:text-xl leading-relaxed">
                   Experimenta el lujo y la profesionalidad en cada servicio. Nuestro salón ofrece manicura y pedicura de

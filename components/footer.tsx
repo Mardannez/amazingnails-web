@@ -32,7 +32,7 @@ export function Footer() {
                 <Instagram className="h-5 w-5" />
               </Link>
               <Link
-                href="#"
+                href="https://www.facebook.com/share/16t2XdHgzF/?mibextid=wwXIfr" target="_blank"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Facebook className="h-5 w-5" />
