@@ -82,7 +82,7 @@ export function HeroSection() {
                     <div className="h-10 w-10 rounded-full bg-secondary border-2 border-card" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold">100+ Clientas</p>
+                    <p className="text-sm font-semibold">50+ Clientas</p>
                     <p className="text-xs text-muted-foreground">Satisfechas</p>
                   </div>
                 </div>
