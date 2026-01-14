@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Sparkles, Palette, Scissors, Star } from "lucide-react"
+import { Sparkles, Palette, Scissors, Star, Footprints } from "lucide-react"
 import { FadeIn } from "@/components/fade-in"
 
 const services = [
@@ -25,11 +25,11 @@ const services = [
     image: "/creative-nail-art-design-colorful.jpg",
   },
   {
-    icon: Scissors,
-    title: "Pedicura Spa",
+    icon: Footprints,
+    title: "Pedicura Spa + Esmaltado Semi Permanente",
     description: "Tratamiento completo para tus pies con exfoliación, limado, hidratacion, eliminacion de durezas, masaje relajante y esmaltado.",
     price: "Desde L. 700",
-    image: "/spa-pedicure-relaxing-foot-treatment.jpg",
+    image: "/Pedicura.jpeg",
   },
   {
     icon: Sparkles,
