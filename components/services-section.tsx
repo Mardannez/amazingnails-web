@@ -43,7 +43,7 @@ const services = [
     title: "Reforzamiento Nivelacion + Semipermanente",
     description: "Aplica una capa de material más duro (Rubber Base o Acrígel) para dar resistencia a la uña natural, corregir imperfecciones y esmaltar.",
     price: "Desde L. 550",
-    image: "/reforzamiento-nivelacion-semipermanente.png",
+    image: "/Reforzamiento_retouch_v2.png",
   },
 ]
 
