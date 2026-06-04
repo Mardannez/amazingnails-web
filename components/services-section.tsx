@@ -7,7 +7,7 @@ const services = [
     icon: Sparkles,
     title: "Manicura Semipermanente Manos",
     description: "Cuidado completo de tus manos con limado, cutícula, masaje hidratante y esmaltado perfecto.",
-    price: "Desde L. 350",
+    price: "Desde L. 300",
     image: "/classic-manicure-hands-with-elegant-nail-polish.jpg",
   },
   {
